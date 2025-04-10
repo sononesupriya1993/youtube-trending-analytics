@@ -17,7 +17,9 @@ Built with the YouTube Data API, it collects video titles, views, likes, channel
 ## How to Run
 1. Install dependencies: `pip install google-api-python-client pandas openpyxl`
 2. Add your YouTube Data API key in `youtube_analytics.py`.
-3. Run: `python youtube_analytics.py`
+3. Run:
+   - Notebook: `jupyter notebook youtube_trending_videos.ipynb`
+   - Automated: `python youtube_analytics_auto.py`
 
 ## Output
 Excel file with columns: Video Name, Views, Likes, Channel Name, Post Date, Duration, Subscribers, Description, Category.
