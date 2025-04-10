@@ -9,6 +9,11 @@ Built with the YouTube Data API, it collects video titles, views, likes, channel
 - Saves data to timestamped Excel files (e.g., `trending_videos_20250401_123456.xlsx`).
 - Uses Python, pandas, and Google’s API for real-time insights.
 
+## Files
+- youtube_trending_videos.ipynb: Static notebook with sample run.
+- youtube_analytics_auto.py: Automated version that fetches data hourly.
+- trending_videos_20250410_113236.xlsx: Sample output.
+
 ## How to Run
 1. Install dependencies: `pip install google-api-python-client pandas openpyxl`
 2. Add your YouTube Data API key in `youtube_analytics.py`.
