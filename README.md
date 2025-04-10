@@ -1,28 +1,26 @@
-# youtube-trending-analytics
-A Python tool to analyze top 100 trending YouTube videos
 # YouTube Trending Video Analytics
-A Python tool to fetch and analyze the top 100 trending YouTube videos globally.  
-Built with the YouTube Data API, it collects video titles, views, likes, channel details, and more, saving results to Excel.
+A Python tool to fetch, analyze, and visualize the top 100 trending YouTube videos globally.  
+Built with the YouTube Data API, it saves data to Excel and includes hourly automation.
 
 ## Features
-- Fetches 100 trending videos with detailed metadata.
-- Saves data to timestamped Excel files (e.g., `trending_videos_20250401_123456.xlsx`).
-- Uses Python, pandas, and Google’s API for real-time insights.
+- Fetches 100 trending videos with metadata.
+- Saves to Excel (e.g., `trending_videos_20250410_113236.xlsx`).
+- Analyzes and visualizes top categories and channels with Matplotlib.
+- Automated version runs hourly.
 
 ## Files
-- youtube_trending_videos.ipynb: Static notebook with sample run.
-- youtube_analytics_auto.py: Automated version that fetches data hourly.
-- trending_videos_20250410_113236.xlsx: Sample output.
+- `youtube_trending_videos.ipynb`: Notebook with fetch, analysis, and visuals.
+- `youtube_analytics_auto.py`: Automated data fetch (hourly).
+- `trending_videos_20250410_144053.xlsx`: Sample output.
+- `top_categories.png`: Top 5 categories by count.
+- `avg_views_by_category.png`: Average views by top 5 categories.
+- `top_channels_subscribers.png`: Subscribers of top 5 channels.
 
 ## How to Run
-1. Install dependencies: `pip install google-api-python-client pandas openpyxl`
-2. Add your YouTube Data API key in `youtube_analytics.py`.
-3. Run:
+1. Install: `pip install google-api-python-client pandas openpyxl matplotlib`
+2. Run:
    - Notebook: `jupyter notebook youtube_trending_videos.ipynb`
    - Automated: `python youtube_analytics_auto.py`
-
-## Output
-Excel file with columns: Video Name, Views, Likes, Channel Name, Post Date, Duration, Subscribers, Description, Category.
 
 ## Author
 Supriya Sonone - April 2025
