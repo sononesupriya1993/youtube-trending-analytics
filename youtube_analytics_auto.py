@@ -38,7 +38,7 @@
     "import time\n",
     "\n",
     "# Configuration\n",
-    "API_KEY = \"AIzaSyBWBqa1IYGJWcIkM8sMJRqwbV04fd4Wp7c\" \n",
+    "API_KEY = \"API_key\" \n",
     "TARGET_VIDEOS = 100\n",
     "REGION_CODE = None\n",
     "\n",
